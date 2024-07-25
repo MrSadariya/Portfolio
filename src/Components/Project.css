@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.p-container{
+    margin-top: 4rem;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-div-container{
+    margin-top: 2rem;
+    width:80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.project-div{
+    width:80vw;
+    height:64vw;
+    position: relative;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.1s;
+}
+
+.project-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.project-detail{
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    border-radius: 0.5rem;
+}
+
+.project-logos{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.project-heading{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.project-detail:hover{
+    opacity: 1;
+    box-shadow: inset 0px 0px 200px 1.5rem  black;
+}
+
+.project-div:hover{
+    transform: translateY(-1rem);
+}
+
+.logooo{
+    margin: 0.5rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.logooo:hover{
+    color:orange
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    html{
+        font-size: 15px;
+    }
+    .p-div-container{
+        width: 85vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .project-div{
+        width:35vw;
+        height:28vw;
+    }
+    .project-img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+ @media (min-width:769px) {
+    html{
+        font-size: 16px;
+    }
+    .p-div-container{
+        width:90vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .project-div{
+        width:24vw;
+        height:20vw;
+    }
+    .project-img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+

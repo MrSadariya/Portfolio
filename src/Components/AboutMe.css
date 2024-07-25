@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.about-container{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-container h1 h4{
+    margin-top: 5rem;
+}
+
+.a-content{
+    min-height:80vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.a-picture{
+    height: 30vw;
+    width:30vw;
+    background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\Profile_Photo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.a-detail{
+    width:80%;
+    font-weight: 500;
+    border-radius: 1rem;
+}
+
+.a-intro{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.education-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-container div{
+    width:100%;
+    border: 0.1rem solid black;
+    margin:1rem;
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:1024px){
+
+    .a-content{
+        height:80vh;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .a-picture{
+        width:20vw;
+        height: 20vw;
+        margin-top: 7rem;
+        background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\Profile_Photo.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1rem;
+    }
+
+    .a-detail{
+        position: relative;
+        width:40%;
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .a-intro{
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    
+    .education-container{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .education-container div{
+        width:90%;
+    }
+
+}
+
+
