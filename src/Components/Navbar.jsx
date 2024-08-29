@@ -32,16 +32,16 @@ const Navbar=(props)=>{
     }
 
     return(
-    <div className="n-container">
-        <div className="n-heading top-animate">Portfolio</div>
+    <div style={{backgroundColor:ModeInfo.isDark?"#1C1C1C":"#f3f3f3",boxShadow:ModeInfo.isDark?"0px 2px 10px 1px whitesmoke":"0px 2px 10px 1px rgba(0, 0, 0, 0.5)"}} className="n-container">
+        <a href="/"><div className="n-heading top-animate">Portfolio</div></a>
 
-        <div style={{backgroundColor:ModeInfo.isDark?"whitesmoke":"rgb(53,52,52)",color:ModeInfo.isDark?"black":"white"}} className={`sidebar ${isSidebar?"show":"hide"} `}>
-            <div style={{fontWeight:"800"}}>Parth Sadariya</div>
-            <div style={{fontWeight:"500"}} onClick={()=>{props.scrollToSection(props.aboutmeref);handleSidebar()}}>About Me</div>
+        <div style={{backgroundColor:ModeInfo.isDark?"whitesmoke":"#1c1c1c",color:ModeInfo.isDark?"black":"white"}} className={`sidebar ${isSidebar?"show":"hide"} `}>
+            <div style={{marginTop:"1rem",fontWeight:"800",textDecoration:"underline"}}>Portfolio</div>
+            <div style={{marginTop:"1rem",fontWeight:"500"}} onClick={()=>{props.scrollToSection(props.aboutmeref);handleSidebar()}}>About Me</div>
             <div style={{fontWeight:"500"}} onClick={()=>{props.scrollToSection(props.Skillref);handleSidebar()}}>Skills</div>
             <div style={{fontWeight:"500"}} onClick={()=>{props.scrollToSection(props.projectsref);handleSidebar()}}>Projects</div>
             <div style={{fontWeight:"500"}} onClick={()=>{props.scrollToSection(props.contactmeref);handleSidebar()}}>Contact Me</div>
-            <div>
+            <div style={{position:"fixed",bottom:"2rem"}}>
             <a href="https://github.com/MrSadariya" style={{color:ModeInfo.isDark?"black":"white"}}><FontAwesomeIcon icon={faGithub} style={{fontSize:"2rem",margin:"1rem"}} /></a>
             <a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' style={{color:ModeInfo.isDark?"black":"white"}}><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"2rem",margin:"1rem"}} /></a>
             </div>
@@ -53,10 +53,12 @@ const Navbar=(props)=>{
             <div onClick={()=>props.scrollToSection(props.projectsref)}>Projects</div>
             <div onClick={()=>props.scrollToSection(props.contactmeref)}>Contact</div>
         </div>
+
+        <div>
         {ModeInfo.isDark?<button onClick={handleMode} className="mode-logo top-animate"><FontAwesomeIcon icon={faSun} /></button>:<button onClick={handleMode} className="mode-logo top-animate"><FontAwesomeIcon icon={faMoon} /></button>}
         
         <button onClick={handleSidebar} className="bar-logo top-animate"><FontAwesomeIcon icon={faBars} /></button>
-
+        </div>
     </div>);
 }
 

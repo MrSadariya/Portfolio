@@ -15,8 +15,8 @@ const ContactMe=(props)=>{
             
             <div className={`c-detail ${ModeInfo.isDark?'dark-mode-c-div':''}`}> 
                 <div><FontAwesomeIcon icon={faEnvelope} className="logo-c" /><h4>E-Mail</h4><a href="mailto:sadariyaparthb@gmail.com">sadariyaparthb@gmail.com</a></div>
-                <div><FontAwesomeIcon icon={faLinkedin} className="logo-c"/><h4>Linkedin</h4>parth-sadariya-19058825b</div>
-                <div><FontAwesomeIcon icon={faLocationDot} className="logo-c"/><h4>Place</h4>Surat,Gujarat</div>
+                <div><FontAwesomeIcon icon={faLinkedin} className="logo-c"/><h4>Linkedin</h4><a href="https://www.linkedin.com/in/parth-sadariya-19058825b">parth-sadariya-19058825b</a></div>
+                <div><FontAwesomeIcon icon={faLocationDot} className="logo-c"/><h4>Place</h4><a href="https://www.google.com/maps/search/?api=1&query=Surat,+Gujarat" target="_blank">Surat , Gujarat</a></div>
 
             </div>
             

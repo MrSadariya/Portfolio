@@ -22,11 +22,12 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
-
-
 
 .n-heading{
     margin-left: 2rem;
@@ -66,7 +67,7 @@ button {
 
 .sidebar div{
     width: 100%;
-    height:15%;
+    height:13%;
 }
 
 .sidebar div{
@@ -75,10 +76,10 @@ button {
     justify-content: center;
 }
 
-@media (min-width:1024px){
+@media (min-width:769px){
     .n-container{
         width:100vw;
-        height:20vh;
+        height:15vh;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -101,10 +102,16 @@ button {
     .n-options{
         height: 100%;
         width:60%;
+        
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        font-size: 1.5rem;
+    }
+
+    .mode-logo{
+        font-size: 1.5rem;
     }
 
     .n-options div{
@@ -156,5 +163,15 @@ button {
 
 .top-animate{
     animation: top-animate 2s ease  forwards;
+}
+
+@media (min-width:1025px){
+    .n-options{
+        font-size: 2rem;
+    }
+
+    .mode-logo{
+        font-size: 2rem;
+    }
 }
 

@@ -22,7 +22,7 @@ const Hero=(props)=>{
             </div>
             <div className="h-logos">
                <a href="https://github.com/MrSadariya" style={{color:ModeInfo.isDark?"white":"black"}}><FontAwesomeIcon icon={faGithub} style={{fontSize:"2rem"}} /></a>
-               <a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' style={{color:ModeInfo.isDark?"white":"black"}}><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"2rem"}} /></a>
+               <a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' style={{color:ModeInfo.isDark?"white":"black"}}> <i style={{fontSize:"2rem"}} class="devicon-linkedin-plain colored"></i></a>
 
                {/* <a href='https://leetcode.com/u/MrSadariya/'><div style={{color:ModeInfo.isDark?"white":"black"}} className="leetcode"></div></a>
                <a href='https://codeforces.com/profile/MrSadariya'><div style={{color:ModeInfo.isDark?"white":"black"}} className="codeforces"></div></a> */}

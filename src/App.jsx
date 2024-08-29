@@ -11,6 +11,7 @@ import {ModeContext} from './Context/ModeContext'
 import { ModeChangingContext } from "./Context/ModeChangingContext";
 import ContactMe from "./Components/ContactMe";
 import Project from "./Components/Project";
+import EmailService from "./Components/EmailService";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Skills ref={skillsref}/>
       <Project innerref={projectsref}/>
       <ContactMe innerref={contactmeref}/>
+      <EmailService/>
     </div>
   );
 }
