@@ -55,7 +55,7 @@ const Navbar=(props)=>{
         </div>
 
         <div>
-        {ModeInfo.isDark?<button onClick={handleMode} className="mode-logo top-animate"><FontAwesomeIcon icon={faSun} /></button>:<button onClick={handleMode} className="mode-logo top-animate"><FontAwesomeIcon icon={faMoon} /></button>}
+        {ModeInfo.isDark?<button onClick={handleMode} className="mode-logo top-animate"><FontAwesomeIcon icon={faSun} style={{color:"#E8D62D"}} /></button>:<button onClick={handleMode} className="mode-logo top-animate"><FontAwesomeIcon icon={faMoon} /></button>}
         
         <button onClick={handleSidebar} className="bar-logo top-animate"><FontAwesomeIcon icon={faBars} /></button>
         </div>

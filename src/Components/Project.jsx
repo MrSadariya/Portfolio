@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import './Project.css';
 import AspyrLogo from '../Static/ASPYR.png';
 import PortfolioImg from '../Static/portfolioimage.png';
-import BookifyImg from '../Static/Bookify-Cover.png';
+import BookifyImg from '../Static/bookify1.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faLink } from '@fortawesome/free-solid-svg-icons';
@@ -14,7 +14,7 @@ const Project=(props)=>{
     let ModeInfo=useContext(ModeContext);
 
     return(
-        <section style={{backgroundColor:ModeInfo.isDark?"#0A0A0A":"#f3f3f3"}} ref={props.innerref} className="p-container">
+        <section style={{backgroundColor:ModeInfo.isDark?"#202020":"#f3f3f3"}} ref={props.innerref} className="p-container">
             <h4>Browse My Recent</h4>
             <h1 className="underline-effect-container">Projects</h1>
 

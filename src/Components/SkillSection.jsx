@@ -18,19 +18,19 @@ const Skills=forwardRef((props,ref)=>{
             <div className={`s-tech ${ModeInfo.isDark?"Darks-tech":""}`}>  
                 <h2>My Tech Stack</h2>
                 <br></br>
-              {TechData.map((t)=><div style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}} key={t.Id}><i class={t.class}></i><p>{t.Name}</p></div>)}
+              {TechData.map((t)=><div className="aa" style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}} key={t.Id}><i class={t.class}></i><p>{t.Name}</p></div>)}
             </div>
 
             <div className={`s-tech ${ModeInfo.isDark?"Darks-tech":""}`}>  
                 <h2>Tools</h2>
                 <br></br>
-              {ToolsData.map((t)=><div style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}} key={t.Id}><i class={t.class}></i><p>{t.Name}</p></div>)}
+              {ToolsData.map((t)=><div className="aa" style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}} key={t.Id}><i  class={t.class}></i><p>{t.Name}</p></div>)}
             </div>
 
             <div className={`s-tech ${ModeInfo.isDark?"Darks-tech":""}`}>  
                 <h2>Programming Languages</h2>
                 <br></br>
-              {LanguageData.map((t)=><div style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}} key={t.Id}><i class={t.class}></i><p>{t.Name}</p></div>)}
+              {LanguageData.map((t)=><div className="aa" style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}} key={t.Id}><i class={t.class}></i><p>{t.Name}</p></div>)}
             </div>
 
             

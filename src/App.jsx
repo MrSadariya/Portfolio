@@ -12,6 +12,7 @@ import { ModeChangingContext } from "./Context/ModeChangingContext";
 import ContactMe from "./Components/ContactMe";
 import Project from "./Components/Project";
 import EmailService from "./Components/EmailService";
+import { Toaster } from 'react-hot-toast';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
 
   return (
     <div style={{backgroundColor:ModeInfo.isDark?"black":"white",color:ModeInfo.isDark?"#E0E0E0":"#121212"}} className={`App ${FlippingInfo.isChanging?"flip-animation":""}`}>
+      <Toaster position="top-center"/>
       <Navbar Skillref={skillsref} scrollToSection={scrollToSection} aboutmeref={aboutmeref} contactmeref={contactmeref} projectsref={projectsref}/>
       <Hero innerref={contactmeref} scrollToSection={scrollToSection}/>
       <AboutMe innerref={aboutmeref}/>

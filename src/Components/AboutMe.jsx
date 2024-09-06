@@ -7,7 +7,7 @@ const AboutMe=(props)=>{
     let ModeInfo=useContext(ModeContext);
 
     return(
-        <section style={{backgroundColor:ModeInfo.isDark?"#0A0A0A":"#f3f3f3"}} ref={props.innerref} className="about-container">
+        <section style={{backgroundColor:ModeInfo.isDark?"#202020":"#f3f3f3"}} ref={props.innerref} className="about-container">
 
         
             <h4>Get To Know More</h4>

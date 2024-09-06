@@ -76,6 +76,25 @@
     }
 }
 
+.s-tech div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+.s-tech{
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+}
+
+.aa:hover{
+    transform: scale(1.1);
+}
+
+.aa-dark{
+    box-shadow:  rgba(226, 226, 231, 0.25) 0px 13px 27px -5px, rgba(221, 216, 216, 0.3) 0px 8px 16px -8px;;
+}
+
 
 
 

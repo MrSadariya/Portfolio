@@ -27,7 +27,10 @@ a{
     background-size: cover;
     animation: photoanimate 2s ease forwards;
     z-index: 1;
+    position: relative;
 }
+
+
 
 .h-desc{
     height:45vh;
@@ -75,10 +78,12 @@ a{
 .leetcode{
     height: 2rem;
     width:2rem;
-    background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\leetcode-svgrepo-com.svg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.leetcode img{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
 }
 
 .codeforces{

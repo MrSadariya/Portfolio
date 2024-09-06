@@ -3,6 +3,8 @@ import './Hero.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin ,faGithub} from "@fortawesome/free-brands-svg-icons";
 import {ModeContext} from '../Context/ModeContext';
+import leetcode from '../Static/leetcodeIcon.png';
+import codeforces from '../Static/CodeforcesIcon.png';
 
 const Hero=(props)=>{
 
@@ -23,6 +25,8 @@ const Hero=(props)=>{
             <div className="h-logos">
                <a href="https://github.com/MrSadariya" style={{color:ModeInfo.isDark?"white":"black"}}><FontAwesomeIcon icon={faGithub} style={{fontSize:"2rem"}} /></a>
                <a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' style={{color:ModeInfo.isDark?"white":"black"}}> <i style={{fontSize:"2rem"}} class="devicon-linkedin-plain colored"></i></a>
+               <a href="https://leetcode.com/u/MrSadariya/" className="leetcode"><img src={leetcode} alt="Leetcode"/></a>
+               <a href='https://codeforces.com/profile/MrSadariya'  className="leetcode"><img src={codeforces} alt="Codeforces"/></a>
 
                {/* <a href='https://leetcode.com/u/MrSadariya/'><div style={{color:ModeInfo.isDark?"white":"black"}} className="leetcode"></div></a>
                <a href='https://codeforces.com/profile/MrSadariya'><div style={{color:ModeInfo.isDark?"white":"black"}} className="codeforces"></div></a> */}

@@ -47,7 +47,7 @@ a{
 }
 
 .c-detail div:hover{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
     color:white
 }
 
@@ -96,4 +96,25 @@ a{
 
 }
 
+.address-icons{
+    height: 2rem;
+    width: 2rem;
+}
+
+.address-icons img{
+    height: 100%;
+    width: auto ;
+    object-fit: contain;
+}
+
+.add-div{
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.add-div:hover{
+    transform: scale(1.1);
+}
 
