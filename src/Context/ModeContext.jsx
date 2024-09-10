@@ -4,7 +4,7 @@ export const ModeContext=createContext(false);
 
 export const ModeContextProvider=(props)=>{
 
-    const [isDark,SetisDark]=useState(false);
+    const [isDark,SetisDark]=useState(true);
 
     return(
             <ModeContext.Provider value={{isDark,SetisDark}}>

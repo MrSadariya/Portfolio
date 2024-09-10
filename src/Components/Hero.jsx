@@ -16,7 +16,7 @@ const Hero=(props)=>{
 
         <div  className="h-desc animate">
             <h3 >Hello , I'm</h3>
-            <h1 >Parth Sadariya</h1>
+            <h1  >Parth Sadariya</h1>
             <h2 >Full Stack Web-Developer</h2>
             <div className={`desc-detail ${ModeInfo.isDark?"Darkdesc-detail":""}`}>
                 <div style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}}>Download CV</div>

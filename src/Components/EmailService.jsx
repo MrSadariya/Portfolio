@@ -42,11 +42,11 @@ export const EmailService = () => {
     <div style={{backgroundColor:ModeInfo.isDark?"#202020":"#f3f3f3"}} className='email-maindiv'>
         <h2 className='underline-effect-container' style={{textAlign:"center",marginTop:"2rem"}}>Send me Mail</h2>
     <form style={{display:"flex",flexDirection:"column",alignItems:"center"}} ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
+      <label className='lbl'>Name</label>
       <input  type="text" name="from_name" placeholder='eg . John' required/>
-      <label>Email</label>
+      <label className='lbl'>Email</label>
       <input type="email" name="user_email" placeholder='eg . John123@gmail.com' required/>
-      <label>Message</label>
+      <label className='lbl'>Message</label>
       <textarea style={{width:"100%"}} name="message" placeholder='Write Your Message here....' required/>
       <input disabled={isLoading} className='submit-btn' type="submit" value="Send" />
     </form>

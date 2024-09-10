@@ -148,18 +148,23 @@ a{
         flex-direction: row;
         align-items: center;
         justify-content: center;
+       
+        
+        
+        
     }
 
     .h-picture{
-        height: 50vh;
-        width:50vh;
+        height: 40vh;
+        width:40vh;
         border-radius: 50%;
-        background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\Profile_Photo.jpg");
+        background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\profile-pic-bright.png");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         margin-left: 1rem;
         margin-right: 1rem;
+        
     }
 
     .h-desc{
@@ -167,6 +172,8 @@ a{
         height:60%;
         margin-left: 1rem;
         margin-right: 1rem;
+        
+        
     }
 }
 
