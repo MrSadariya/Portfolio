@@ -28,16 +28,7 @@
     font-size: 1.2rem;
 }
 
-.a-picture{
-    height: 30vw;
-    width:30vw;
-    background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\Profile_Photo.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 1rem;
-    margin-top: 2rem;
-}
+
 
 .a-detail{
     width:80%;
@@ -83,16 +74,7 @@
         justify-content: space-evenly;
     }
 
-    .a-picture{
-        width:20vw;
-        height: 20vw;
-        margin-top: 7rem;
-        background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\Profile_Photo.jpg");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 1rem;
-    }
+    
 
     .a-detail{
         position: relative;
