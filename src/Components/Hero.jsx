@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import './Hero.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin ,faGithub} from "@fortawesome/free-brands-svg-icons";
+import { faGithub} from "@fortawesome/free-brands-svg-icons";
 import {ModeContext} from '../Context/ModeContext';
 import leetcode from '../Static/leetcodeIcon.png';
 import codeforces from '../Static/CodeforcesIcon.png';
@@ -19,7 +19,7 @@ const Hero=(props)=>{
             <h1  >Parth Sadariya</h1>
             <h2 >Full Stack Web-Developer</h2>
             <div className={`desc-detail ${ModeInfo.isDark?"Darkdesc-detail":""}`}>
-                <div style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}}>Download CV</div>
+                <a href="https://drive.google.com/drive/folders/1Tzxkke4QtLr_wsEsWKDT_chpRUZ0wRFF?usp=drive_link" target="_blank" rel="noopener noreferrer"><div style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}}>Resume</div></a>
                 <div onClick={()=>props.scrollToSection(props.innerref)} style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}}>Contact Info</div>
             </div>
             <div className="h-logos">
