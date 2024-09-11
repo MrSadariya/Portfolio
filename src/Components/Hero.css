@@ -21,7 +21,7 @@ a{
     height:35vh;
     width:35vh;
     border-radius: 50%;
-    background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\profile-pic-bright.png");
+    background: url("../Static/profile-pic-bright.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +89,7 @@ a{
 .codeforces{
     height: 2rem;
     width:2rem;
-    background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\codeforces-svgrepo-com.svg");
+    background: url("../Static/codeforces-svgrepo-com.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,7 +158,7 @@ a{
         height: 40vh;
         width:40vh;
         border-radius: 50%;
-        background: url("C:\Users\sadar\OneDrive\Desktop\portfolio\src\Static\profile-pic-bright.png");
+        background: url("../Static/profile-pic-bright.png");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
