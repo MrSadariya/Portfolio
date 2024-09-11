@@ -6,7 +6,11 @@ import toast from 'react-hot-toast';
 import { Toaster } from 'react-hot-toast';
 
 export const EmailService = () => {
-  
+
+  const serviceId = process.env.REACT_APP_SERVICE_ID;
+  const templateId = process.env.REACT_APP_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+
     let ModeInfo=useContext(ModeContext);
     const [isLoading, setIsLoading] = useState(false);
 
@@ -19,9 +23,8 @@ export const EmailService = () => {
    
 
     emailjs
-      .sendForm('service_x8xmvk7', 'template_kxq1sv9', form.current, {
-        publicKey: 'sXU_p82GiLNFqHMOA',
-      })
+      .sendForm(serviceId, templateId, form.current,  publicKey
+      )
       .then(
         () => {
           console.log('SUCCESS!');
