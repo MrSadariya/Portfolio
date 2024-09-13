@@ -34,7 +34,7 @@ export const EmailService = () => {
         },
         (error) => {
           console.log('FAILED...', error.text);
-          toast.dismiss('loading'); // Remove loading toast
+          toast.dismiss('loading'); 
       toast.error('Failed to send email. Please try again.', { duration: 4000 });
         },
       );

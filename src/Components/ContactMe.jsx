@@ -17,8 +17,8 @@ const ContactMe=(props)=>{
             <h1 className="underline-effect-container">Contact Me</h1>
             
             <div className={`c-detail ${ModeInfo.isDark?'dark-mode-c-div':''}`}> 
-                <div className="add-div"><a className="address-icons"><img src={Mail}></img></a><h4>GMail</h4><a href="mailto:sadariyaparthb@gmail.com">sadariyaparthb@gmail.com</a></div>
-                <div className="add-div"><a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' style={{color:ModeInfo.isDark?"white":"black"}}> <i style={{fontSize:"2rem"}} class="devicon-linkedin-plain colored"></i></a><h4>Linkedin</h4><a href="https://www.linkedin.com/in/parth-sadariya-19058825b">parth-sadariya-19058825b</a></div>
+                <div className="add-div"><a className="address-icons"><img src={Mail}></img></a><h4>GMail</h4><a href="mailto:sadariyaparthb@gmail.com" target="_blank" rel="noopener noreferrer">sadariyaparthb@gmail.com</a></div>
+                <div className="add-div"><a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' style={{color:ModeInfo.isDark?"white":"black"}}> <i style={{fontSize:"2rem"}} class="devicon-linkedin-plain colored"></i></a><h4>Linkedin</h4><a href="https://www.linkedin.com/in/parth-sadariya-19058825b" target="_blank" rel="noopener noreferrer">parth-sadariya-19058825b</a></div>
                 <div className="add-div"><a className="address-icons"><img src={Map}></img></a><h4>Place</h4><a href="https://www.google.com/maps/search/?api=1&query=Surat,+Gujarat" target="_blank">Surat , Gujarat</a></div>
 
             </div>

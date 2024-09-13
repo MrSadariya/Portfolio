@@ -42,8 +42,8 @@ const Navbar=(props)=>{
             <div style={{fontWeight:"500"}} onClick={()=>{props.scrollToSection(props.projectsref);handleSidebar()}}>Projects</div>
             <div style={{fontWeight:"500"}} onClick={()=>{props.scrollToSection(props.contactmeref);handleSidebar()}}>Contact Me</div>
             <div style={{position:"fixed",bottom:"2rem"}}>
-            <a href="https://github.com/MrSadariya" style={{color:ModeInfo.isDark?"black":"white"}}><FontAwesomeIcon icon={faGithub} style={{fontSize:"2rem",margin:"1rem"}} /></a>
-            <a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' style={{color:ModeInfo.isDark?"black":"white"}}><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"2rem",margin:"1rem"}} /></a>
+            <a href="https://github.com/MrSadariya" target="_blank" rel="noopener noreferrer" style={{color:ModeInfo.isDark?"black":"white"}}><FontAwesomeIcon icon={faGithub} style={{fontSize:"2rem",margin:"1rem"}} /></a>
+            <a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' target="_blank" rel="noopener noreferrer" style={{color:ModeInfo.isDark?"black":"white"}}><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"2rem",margin:"1rem"}} /></a>
             </div>
         </div>
         

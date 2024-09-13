@@ -24,8 +24,8 @@ const Project=(props)=>{
                      <img src={PortfolioImg} alt="Portfolio" className="project-img" />
                      <div className="project-detail">
                         <div className="project-logos">
-                           <a href="https://github.com/MrSadariya/Portfolio"><FontAwesomeIcon icon={faGithub}   className="logooo"/></a>
-                           <a href="/"><FontAwesomeIcon icon={faLink} className="logooo"/></a>
+                           <a href="https://github.com/MrSadariya/Portfolio" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}   className="logooo"/></a>
+                           <a href="/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLink} className="logooo"/></a>
                         </div>
                         <div className="project-heading">
                             <h2>Portfolio</h2>
@@ -40,8 +40,8 @@ const Project=(props)=>{
                      <img src={BookifyImg} alt="Bookify" className="project-img" />
                      <div className="project-detail">
                         <div className="project-logos">
-                           <a href="https://github.com/MrSadariya/Bookify"><FontAwesomeIcon icon={faGithub}   className="logooo"/></a>
-                           <a href="https://github.com/MrSadariya/Bookify"><FontAwesomeIcon icon={faLink} className="logooo"/></a>
+                           <a href="https://github.com/MrSadariya/Bookify" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}   className="logooo"/></a>
+                           <a href="https://github.com/MrSadariya/Bookify" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLink} className="logooo"/></a>
                         </div>
                         <div className="project-heading">
                             <h2>Bookify</h2>
@@ -56,8 +56,8 @@ const Project=(props)=>{
                      <img src={AspyrLogo} alt="Aspyr" className="project-img" />
                      <div className="project-detail">
                         <div className="project-logos">
-                           <a href="https://github.com/MrSadariya/core"><FontAwesomeIcon icon={faGithub}  className="logooo"/></a>
-                           <a href="https://aspyr.in"><FontAwesomeIcon icon={faLink} className="logooo"/></a>
+                           <a href="https://github.com/MrSadariya/core" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}  className="logooo"/></a>
+                           <a href="https://aspyr.in" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLink} className="logooo"/></a>
                         </div>
                         <div className="project-heading">
                             <h2>Aspyr</h2>

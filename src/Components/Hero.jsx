@@ -23,10 +23,10 @@ const Hero=(props)=>{
                 <div onClick={()=>props.scrollToSection(props.innerref)} style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}}>Contact Info</div>
             </div>
             <div className="h-logos">
-               <a href="https://github.com/MrSadariya" style={{color:ModeInfo.isDark?"white":"black"}}><FontAwesomeIcon icon={faGithub} style={{fontSize:"2rem"}} /></a>
-               <a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' style={{color:ModeInfo.isDark?"white":"black"}}> <i style={{fontSize:"2rem"}} class="devicon-linkedin-plain colored"></i></a>
-               <a href="https://leetcode.com/u/MrSadariya/" className="leetcode"><img src={leetcode} alt="Leetcode"/></a>
-               <a href='https://codeforces.com/profile/MrSadariya'  className="leetcode"><img src={codeforces} alt="Codeforces"/></a>
+               <a href="https://github.com/MrSadariya" target="_blank" rel="noopener noreferrer" style={{color:ModeInfo.isDark?"white":"black"}}><FontAwesomeIcon icon={faGithub} style={{fontSize:"2rem"}} /></a>
+               <a href='https://www.linkedin.com/in/parth-sadariya-19058825b/' target="_blank" rel="noopener noreferrer" style={{color:ModeInfo.isDark?"white":"black"}}> <i style={{fontSize:"2rem"}} class="devicon-linkedin-plain colored"></i></a>
+               <a href="https://leetcode.com/u/MrSadariya/" target="_blank" rel="noopener noreferrer" className="leetcode"><img src={leetcode} alt="Leetcode"/></a>
+               <a href='https://codeforces.com/profile/MrSadariya' target="_blank" rel="noopener noreferrer" className="leetcode"><img src={codeforces} alt="Codeforces"/></a>
 
                {/* <a href='https://leetcode.com/u/MrSadariya/'><div style={{color:ModeInfo.isDark?"white":"black"}} className="leetcode"></div></a>
                <a href='https://codeforces.com/profile/MrSadariya'><div style={{color:ModeInfo.isDark?"white":"black"}} className="codeforces"></div></a> */}
