@@ -19,7 +19,7 @@ const Hero=(props)=>{
             <h1  >Parth Sadariya</h1>
             <h2 >Full Stack Web-Developer</h2>
             <div className={`desc-detail ${ModeInfo.isDark?"Darkdesc-detail":""}`}>
-                <a href="https://drive.google.com/drive/folders/1Tzxkke4QtLr_wsEsWKDT_chpRUZ0wRFF?usp=drive_link" target="_blank" rel="noopener noreferrer"><div style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}}>Resume</div></a>
+                <a href="https://drive.google.com/drive/folders/1blQiRzpmgESY2iEnPWtV3Gug8IlOHfzr?usp=drive_link" target="_blank" rel="noopener noreferrer"><div style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}}>Resume</div></a>
                 <div onClick={()=>props.scrollToSection(props.innerref)} style={{borderColor:ModeInfo.isDark?"#E0E0E0":"black"}}>Contact Info</div>
             </div>
             <div className="h-logos">
